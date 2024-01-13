@@ -1,9 +1,6 @@
--- DROP DATABASE IF EXISTS denisaneagu_comcapwizardsdb; --
--- Deletes the database if there's one with the same name, that already exists --
--- CREATE DATABASE denisaneagu_comcapwizardsdb; --
--- DB creation --
--- USE denisaneagu_comcapwizardsdb; --
--- Will use the DB --
+DROP DATABASE IF EXISTS CapWizzardsDB;
+CREATE DATABASE CapWizzardsDB;
+USE CapWizzardsDB;
 
 -- Tables creation --
 CREATE TABLE Company (
